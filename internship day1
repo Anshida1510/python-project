@@ -1,0 +1,264 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOgm6PKleumSbsSr3aLxjRQ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Anshida1510/python-project/blob/main/internship%20day1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "S6dbmF_t6yGs",
+        "outputId": "64c02514-d887-4ae4-b72e-59756dec6175"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "Anshida\n"
+          ]
+        }
+      ],
+      "source": [
+        "x=2\n",
+        "n1=\"Anshida\"\n",
+        "print(x)\n",
+        "print(n1)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "bat1=\"nike\"\n",
+        "bat2=\"mrf\"\n"
+      ],
+      "metadata": {
+        "id": "TObhdqv-8RlD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=30\n",
+        "b=5\n",
+        "print(a*b)\n",
+        "print(a/b)\n",
+        "print(a//b)\n",
+        "print(a%b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ViK6dc0I8qo3",
+        "outputId": "ca401d2b-b318-45d7-9aa1-bbc1b451ca6e"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "150\n",
+            "6.0\n",
+            "6\n",
+            "0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n1=int(input(\"enter first number\"))\n",
+        "n2=int(input(\"enter second number\"))\n",
+        "print(n1+n2)\n",
+        "print(n1-n2)\n",
+        "print(n1*n2)\n",
+        "print(n1/n2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "p5i9zQ4t9fuB",
+        "outputId": "4c989c54-d0ca-4d75-8e77-822953e7b8e9"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter first number30\n",
+            "enter second number20\n",
+            "50\n",
+            "10\n",
+            "600\n",
+            "1.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=20\n",
+        "print(type(x))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0-CtbA92_m-F",
+        "outputId": "51883bd5-18b3-47d3-ff57-cd6584421abe"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import random\n",
+        "print(random.randrange(1,20))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KlQb4hHgAHpc",
+        "outputId": "1a0841dc-bc6b-423b-a459-515bd67893c3"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n1=\"MS Dhoni\"\n",
+        "print(type(n1))\n",
+        "print(n1[1])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fF93Y7sHBWHe",
+        "outputId": "58b39682-1cdf-475b-a003-6036bae41704"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n",
+            "S\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=\"Virat is the best player\"\n",
+        "print(a[0:5])\n",
+        "print(a[12:17])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4qlzELLQCEVZ",
+        "outputId": "412bb21f-55f0-4ea3-8648-239ded6d7539"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Virat\n",
+            " best\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=\"Ravindra Jadeja\"\n",
+        "a.strip()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "ZpuOx_LJDET1",
+        "outputId": "36eaefd5-71fb-4682-8e21-4918e43922fd"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'Ravindra Jadeja'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 24
+        }
+      ]
+    }
+  ]
+}
